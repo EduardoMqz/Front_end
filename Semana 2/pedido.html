@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realiza tu pedido</title>
+</head>
+<body>
+    <a href="./index.html">
+        <img  width="150px" src="./assets/img/Logo.png" alt="Coplanet">
+    </a>
+    <h1>Aqui se realiza tu pedido</h1>
+    <form action="pedido.js"></form>
+        <label for="Nombre">Nombre del solicitante</label>
+        <br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+        <br><br>
+        <p>Telefono:</p>
+        <input type="tel" id="Numero" name="Numero" placeholder="Ingrese numero" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <br><br>
+        <p>Correo electronico:</p>
+        <input type="email" name="mail" id="mail">
+        <br><br>
+        <p>Descripcion:</p>
+        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+        <br><br>
+        <p>Seleccione sabor de su pastel (es posible combinar sabores):</p>
+        <input type="checkbox" name="Platano" id="Platano" value="Platano">
+        <label for="platano">Platano</label>
+        <br>
+        <input type="checkbox" name="Chocolate" id="Chocolate" value="Chocolate">
+        <label for="Chocolate">Chocolate</label>
+        <br>
+        <input type="checkbox" name="Fresa" id="Fresa" value="Fresa">
+        <label for="Fresa">Fresa</label>
+        <br>
+        <input type="checkbox" name="Limon" id="Limon" value="Limon">
+        <label for="Limon">Limon</label>
+        <br>
+        <input type="checkbox" name="Zarzamora" id="Zarzamora" value="Zarzamora">
+        <label for="Zarzamora">Zarzamora</label>
+        <br>
+        <input type="checkbox" name="Mango" id="Mango" value="Mango">
+        <label for="Mango">Mango</label>
+        <br><br>
+        <p>Seleccione los adornos de su pastel (es posible combinar adornos):</p>
+        <input type="checkbox" name="Estrella" id="Estrella" value="Estrella">
+        <label for="Estrella">Estrella</label>
+        <br>
+        <input type="checkbox" name="Luna" id="Luna" value="Luna">
+        <label for="Luna">Luna</label>
+        <br>
+        <input type="checkbox" name="Deportes" id="Deportes" value="Deportes">
+        <label for="Deportes">Deportes</label>
+        <br>
+        <input type="checkbox" name="Escuela" id="Escuela" value="Escuela">
+        <label for="Escuela">Escuela</label>
+        <br>
+        <input type="checkbox" name="Corazones" id="Corazones" value="Corazones">
+        <label for="Corazones">Corazones</label>
+        <br>
+        <input type="checkbox" name="Animales" id="Animales" value="Animales">
+        <label for="Animales">Animales</abel>
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+<footer>
+    <p>Direccion:</p>
+    <p>Monte benemerito #4564</p>
+    <p>Numero:</p>
+    <p>4852-45-62</p>
+    <p>Horario:</p>
+    <ul>
+        <li>Lun-Vie
+            <ul>
+                <li>07:00 AM - 8:00 PM</li>
+            </ul>
+        </li>
+        <li>Sab-Dom
+            <ul>
+                <li>09:00 AM - 5:00 PM</li>
+            </ul>
+        </li>
+    </ul>
+</footer>
+</html>
