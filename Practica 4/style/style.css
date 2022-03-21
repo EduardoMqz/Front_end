@@ -1,0 +1,27 @@
+.pokedex{
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+}
+
+.screen{
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 40%;
+    height: 50%;
+    background-color:darkseagreen;
+    display: flex;
+    justify-content: center;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+.right{
+    height: 50%;
+    width: 50%;
+}
